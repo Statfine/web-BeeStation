@@ -1,9 +1,25 @@
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import { SelectLang as UmiSelectLang } from '@umijs/max';
-import React from 'react';
+import { Switch } from 'antd';
 
 export type SiderTheme = 'light' | 'dark';
 
+import styles from './style.less';
+
+export type SelectThemeProps = {
+  onThemeChange: (checked: boolean) => void;
+};
+export const SelectTheme = (props: SelectThemeProps) => {
+  return (
+    <Switch
+      className={styles.headerSwitch}
+      checkedChildren={<span>🌞</span>}
+      unCheckedChildren={<span>🌜</span>}
+      defaultChecked
+      onChange={(checked) => props.onThemeChange(checked)}
+    />
+  );
+};
 export const SelectLang = () => {
   return (
     <UmiSelectLang
