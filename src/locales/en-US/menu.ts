@@ -49,4 +49,15 @@ export default {
   'menu.editor.flow': 'Flow Editor',
   'menu.editor.mind': 'Mind Editor',
   'menu.editor.koni': 'Koni Editor',
+
+  'menu.order-manage': 'Order Management',
+  'menu.order-manage.list': 'Order List',
+  'menu.order-manage.worksheet': 'Worksheet',
+  'menu.bus-manage': 'Vehicle Management',
+  'menu.bus-manage.list': 'Vehicle List',
+  'menu.bus-manage.plan': 'Vehicle Schedule',
+  'menu.invoice-manage': 'Invoice Management',
+  'menu.invoice-manage.list': 'Invoice',
+  'menu.invoice-manage.payment': 'Payment',
+  'menu.invoice-manage.receipt': 'Receipt',
 };

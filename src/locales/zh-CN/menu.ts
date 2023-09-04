@@ -49,4 +49,15 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+
+  'menu.order-manage': '订单管理',
+  'menu.order-manage.list': '订单列表',
+  'menu.order-manage.worksheet': '工作表',
+  'menu.bus-manage': '车辆管理',
+  'menu.bus-manage.list': '车辆列表',
+  'menu.bus-manage.plan': '车辆计划',
+  'menu.invoice-manage': '发票管理',
+  'menu.invoice-manage.list': '发票',
+  'menu.invoice-manage.payment': '付款',
+  'menu.invoice-manage.receipt': '收据',
 };

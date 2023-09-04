@@ -1,11 +1,12 @@
 import { PageContainer } from '@ant-design/pro-components';
-import { useModel } from '@umijs/max';
+import { useIntl, useModel } from '@umijs/max';
 import { Card, theme } from 'antd';
 import React from 'react';
 
 const Welcome: React.FC = () => {
   const { token } = theme.useToken();
   const { initialState } = useModel('@@initialState');
+  const intl = useIntl();
   return (
     <PageContainer>
       <Card
@@ -34,7 +35,7 @@ const Welcome: React.FC = () => {
               color: token.colorTextHeading,
             }}
           >
-            欢迎使用 BeeStation
+            {intl.formatMessage({ id: 'pages.welcome.link' }, { name: 'BeeStation' })}
           </div>
         </div>
       </Card>

@@ -49,4 +49,15 @@ export default {
   'menu.editor.flow': '流程編輯器',
   'menu.editor.mind': '腦圖編輯器',
   'menu.editor.koni': '拓撲編輯器',
+
+  'menu.order-manage': '訂單管理',
+  'menu.order-manage.list': '訂單列表',
+  'menu.order-manage.worksheet': '工作表',
+  'menu.bus-manage': '車輛管理',
+  'menu.bus-manage.list': '車輛列表',
+  'menu.bus-manage.plan': '車輛計劃 ',
+  'menu.invoice-manage': '發票管理',
+  'menu.invoice-manage.list': '發票',
+  'menu.invoice-manage.payment': '付款',
+  'menu.invoice-manage.receipt': '收據',
 };

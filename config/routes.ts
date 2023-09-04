@@ -28,28 +28,78 @@ export default [
     icon: 'smile',
     component: './Welcome',
   },
+  // {
+  //   path: '/admin',
+  //   name: 'admin',
+  //   icon: 'crown',
+  //   access: 'canAdmin',
+  //   routes: [
+  //     {
+  //       path: '/admin',
+  //       redirect: '/admin/sub-page',
+  //     },
+  //     {
+  //       path: '/admin/sub-page',
+  //       name: 'sub-page',
+  //       component: './Admin',
+  //     },
+  //   ],
+  // },
   {
-    path: '/admin',
-    name: 'admin',
-    icon: 'crown',
-    access: 'canAdmin',
+    path: '/order',
+    name: 'order-manage',
+    icon: 'profile',
     routes: [
       {
-        path: '/admin',
-        redirect: '/admin/sub-page',
+        path: '/order/list',
+        name: 'list',
+        component: './TableList',
       },
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        component: './Admin',
+        path: '/order/worksheet',
+        name: 'worksheet',
+        component: './TableList',
       },
     ],
   },
   {
-    name: 'list.table-list',
-    icon: 'table',
-    path: '/list',
-    component: './TableList',
+    path: '/bus',
+    name: 'bus-manage',
+    icon: 'car',
+    routes: [
+      {
+        path: '/bus/list',
+        name: 'list',
+        component: './TableList',
+      },
+      {
+        path: '/bus/plan',
+        name: 'plan',
+        component: './TableList',
+      },
+    ],
+  },
+  {
+    path: '/invoice',
+    name: 'invoice-manage',
+    icon: 'moneyCollect',
+    routes: [
+      {
+        path: '/invoice/list',
+        name: 'list',
+        component: './TableList',
+      },
+      {
+        path: '/invoice/payment',
+        name: 'payment',
+        component: './TableList',
+      },
+      {
+        path: '/invoice/receipt',
+        name: 'receipt',
+        component: './TableList',
+      },
+    ],
   },
   {
     path: '/',

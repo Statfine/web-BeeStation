@@ -22,7 +22,7 @@ export default {
   'pages.login.submit': '登錄',
   'pages.login.loginWith': '其他登錄方式 :',
   'pages.login.registerAccount': '註冊賬戶',
-  'pages.welcome.link': '歡迎使用',
+  'pages.welcome.link': '歡迎使用 {name}',
   'pages.welcome.alertMessage': '更快更強的重型組件，已經發布。',
   'pages.admin.subPage.title': '這個頁面只有 admin 權限才能查看',
   'pages.admin.subPage.alertMessage': 'umi ui 現已發佈，歡迎使用 npm run ui 啓動體驗。',
